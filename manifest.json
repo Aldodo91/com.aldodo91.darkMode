@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Dark Mode Selector",
+  "description": "pippo",
+  "developer_name": "Aldodo91",
+  "icon": "images/ico.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "systemctl_ext",
+      "type": "keyword",
+      "name": "Dark Mode",
+      "description": "Select Dark/Light mode",
+      "default_value": "dark"
+    }
+  ]
+}
