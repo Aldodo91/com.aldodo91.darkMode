@@ -11,5 +11,5 @@ This extension was inspired by ['Ulauncher Session Actions'](https://github.com/
 Put this in
 
 ```
-/home/aldo/.local/share/ulauncher/extensions/com.aldodo91.darkMode
+$hOME/.local/share/ulauncher/extensions/com.aldodo91.darkMode
 ```
