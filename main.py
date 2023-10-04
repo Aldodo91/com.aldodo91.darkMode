@@ -29,21 +29,21 @@ class KeywordQueryEventListener(EventListener):
 
 def darkOn():
     return ExtensionResultItem(icon='images/moon.png',
-                               name='Dark Mode ON',
-                               description='Set DarkMode ON',
+                               name='Dark Mode',
+                               description='Set Dark Mode',
                                on_enter=RunScriptAction("/home/aldo/Documenti/Scripts/ThinkPad/darkMode on", None))
 
 
 def darkOff():
     return ExtensionResultItem(icon='images/sun.png',
-                               name='Dark Mode OFF',
-                               description='Set DarkMode OFF',
+                               name='Light Mode',
+                               description='Set Light Mode',
                                on_enter=RunScriptAction("/home/aldo/Documenti/Scripts/ThinkPad/darkMode off", None))
 
 def darkAuto():
     return ExtensionResultItem(icon='images/ico.png',
-                               name='Dark Mode AUTO',
-                               description='Set DarkMode AUTO',
+                               name='AUTO Mode',
+                               description='Set Mode AUTO',
                                on_enter=RunScriptAction("/home/aldo/Documenti/Scripts/ThinkPad/darkMode auto", None))
 
 
